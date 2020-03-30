@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.header {
+    background: #30697d url('../img/bg.jpg') no-repeat center top / cover ;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.mail {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
