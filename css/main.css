@@ -3,9 +3,25 @@ body {
     padding: 0;
     margin: 0;
     font-size: 14px;
+    color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 65px;
+    letter-spacing: 0.22em;
+    border-top: 3px solid #9ab4be;
+    border-bottom: 3px solid #9ab4be;
+    width: 485px;
+    padding: 10px 0;
+    margin: 0 auto;
 }
 .header {
     background: #30697d url('../img/bg.jpg') no-repeat center top / cover ;
+    padding-bottom: 420px;
+    padding-top: 70px;
 }
 .container {
     width: 1170px;
@@ -20,4 +36,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.offer {
+    margin-top: 290px;
+    text-align: center;
+}
+.offer p {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #d0d9dd;
 }
