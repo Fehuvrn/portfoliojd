@@ -133,7 +133,7 @@ ul, li {
 .item__title {
     margin-top: 40px;
 }   
-.portfolio__title {
+/* .portfolio__title {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     margin: 0;
@@ -158,7 +158,6 @@ ul, li {
     height: 282px;
     width: 282px;
     background: #10c6fc;
-    /* margin-right: 15px; */
 }
 
 .list-works__item:nth-child(2) {
@@ -183,7 +182,7 @@ ul, li {
 .list-works__item:nth-child(7) {
     margin-top: 15px;
     background: #ff2b4a;
-}
+} */
 
 
 .footer {
@@ -208,4 +207,68 @@ ul, li {
 }
 .social__link:hover {
     color: #ff2b4a;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 768px;
+    }
+    .about {
+        padding-top: 65px;
+        padding-bottom: 75px;
+    }
+    .about__text {
+        width: 100%;
+        text-align: center;
+    }
+    .about__text-info {
+        margin-bottom: 50px;
+    }
+    .about__man-pic {
+        display: none;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: auto;
+        padding: 0 10px;
+        min-width: 290px;
+    }
+    .offer__title {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .process__list-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-steps__item {
+        margin-bottom: 30px;
+    }
+    .list-steps__item:last-child {
+        margin-bottom: 0;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+    .offer {
+        margin-top: 100px;
+    }
+    .offer__title {
+        font-size: 50px;
+    }
 }
